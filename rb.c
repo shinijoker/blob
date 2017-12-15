@@ -240,6 +240,8 @@ int main ()
 	inorder(root,root);
 	printf("preorder\n");
 	preorder(root, root);
+	printf("posorder\n");
+	posorder(root,root);
 	return 0;	
 }
 
